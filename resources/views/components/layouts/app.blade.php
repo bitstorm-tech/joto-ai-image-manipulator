@@ -8,7 +8,7 @@
 
         @vite(["resources/css/app.css", "resources/js/app.js"])
     </head>
-    <body class="font-sans antialiased dark:text-white/50">
-        <button class="btn">Upload Image!!</button>
+    <body class="m-5 font-sans antialiased dark:text-white/50">
+        {{ $slot }}
     </body>
 </html>

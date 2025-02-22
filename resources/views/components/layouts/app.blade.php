@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace("_", "-", app()->getLocale()) }}" data-theme="dracula">
+<html lang="{{ str_replace("_", "-", app()->getLocale()) }}" data-theme="forest">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -8,7 +8,7 @@
 
         @vite(["resources/css/app.css", "resources/js/app.js"])
     </head>
-    <body class="m-5 font-sans antialiased dark:text-white/50">
+    <body class="p-5 font-sans antialiased dark:text-white/50">
         {{ $slot }}
     </body>
 </html>
